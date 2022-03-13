@@ -8,7 +8,7 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitle: `PD's Blog`,
-    // siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `PD's Blog`,
     siteHeadline: `PD's Blog`,
     siteUrl: `https://minimal-blog.lekoarts.de`,
     siteDescription: `Personl blog of priyadarshan singh aka pd aka pdrojack`,
@@ -64,8 +64,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `PD's Blog`,
+        short_name: `pd-blog`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,
@@ -131,7 +131,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `PD's Blog`,
           },
         ],
       },
